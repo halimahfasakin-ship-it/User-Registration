@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(135deg, #eef2f7, #dfe7fd);
+    min-height: 100vh;
+}
+
+.form_card {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile_img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0d6efd;
+}
+
+.user_card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.user_card:hover {
+    transform: translateY(-5px);
+}
